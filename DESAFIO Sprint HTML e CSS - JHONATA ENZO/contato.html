@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>Contato</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/logo-ford-256.png" alt="logo-ford">
+    <nav class="menu_cabecalho">
+      <ul class="lista_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lancamento.html">Lançamento</a></li>
+        <li><a class="ativo" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container_contato">
+    <img src="img/xls 2.2 diesel.jpg" alt="Carro">
+    <form class="container_formulario" id="meuFormulario">
+      <h2>Sobre Você</h2>
+      <input type="text" id="nome" placeholder="NOME*" required>
+      <input type="email" id="email" placeholder="E-MAIL*" required>
+      <input type="number" id="cpf" placeholder="CPF*" required>
+      <input type="tel" id="telefone" placeholder="TELEFONE*" required>
+      <label>Tipo de contato:</label>
+      <select>
+        <option>Elogio</option>
+        <option>Reclamação</option>
+        <option>Solicitação</option>
+      </select>
+      <label>Mensagem:</label>
+      <textarea rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+  <footer>
+    <div class="redes_sociais">
+      <p>Redes Sociais</p>
+      <a href="https://www.facebook.com/FordBrasil" target="_blank"><img src="./img/facebook-50.png" alt="facebook"></a>
+      <a href="https://www.youtube.com/@fordbrasil" target="_blank"><img src="./img/youtube-squared-50.png"
+          alt="youtube"></a>
+      <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img src="./img/instagram-logo-50.png"
+          alt="instagram"></a>
+    </div>
+    <img src="img/ford-96.png" alt="logo-ford" class="logo_rodape">
+  </footer>
+</body>
+
+</html>
